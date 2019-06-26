@@ -1,0 +1,22 @@
+header {
+  height: 50px;
+  border-bottom: $neutral-800 solid 1px;
+  padding: 0px 42px;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.header-menu {
+  display: none;
+}
+
+@media screen and (max-width: 780px) {
+  .header-menu {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+}

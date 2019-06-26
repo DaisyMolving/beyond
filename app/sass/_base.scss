@@ -1,0 +1,17 @@
+@font-face { font-family: OpenSans; src: url('../../public/assets/fonts/Open\ Sans/OpenSans-Regular.ttf'); }
+@font-face { font-family: OpenSansSemiBold; src: url('../../public/assets/fonts/Open\ Sans/OpenSans-SemiBold.ttf'); }
+
+body {
+  color: $neutral-800;
+  font-family: OpenSansSemiBold;
+  font-size: 16px;
+  height: 100vh;
+}
+
+p {
+  font-family: OpenSans;
+}
+
+a {
+  color: $neutral-800;
+}

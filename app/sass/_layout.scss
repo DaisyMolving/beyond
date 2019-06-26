@@ -1,0 +1,22 @@
+.half {
+  width: 50%;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.items-across {
+  display: flex;
+}
