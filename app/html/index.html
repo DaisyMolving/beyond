@@ -5,30 +5,140 @@
     <link rel="stylesheet" href="../../public/stylesheets/main.css" />
   </head>
   <body>
-    <header class="header__logged-out items-across">
+
+    <header class="header__logged-in items-across">
+
       <div class="half left align-center">
         <a href="#">
           <span class="logo">BEYOND</span>
         </a>
       </div>
+
       <div class="half right align-center">
+
         <nav>
+
           <ul class="align-center items-across">
+
             <li class="nav-item align-center items-across">
               <div class="bell icon__24px"></div>
               <a href="#">Notifications</a>
             </li>
+
             <li class="nav-item align-center items-across">
               <div class="avatar icon__36px"></div>
               <a href="#">Hi, Ana</a>
             </li>
+
             <li class="nav-item">
               <a href="#">Log out</a>
             </li>
+
           </ul>
+
         </nav>
+
         <div class="align-center header-menu burger-menu icon__36px"></div>
+
       </div>
     </header>
+
+    <section class="background-confetti">
+
+      <section class="page">
+
+        <h1>Explore!</h1>
+
+        <section class="content-block multi-search">
+
+          <section class="horizontal-tabs">
+
+            <section class="tab tab__active third align-center">
+              <h3>Flights</h3>
+            </section>
+
+            <section class="tab tab__inactive third align-center">
+              <h3 class="white-text">Accommodation</h3>
+            </section>
+
+            <section class="tab tab__inactive third align-center">
+              <h3 class="white-text">Car Rental</h3>
+            </section>
+
+          </section>
+
+          <form class="content" action="#">
+
+            <section class="toggle">
+
+              <input class="toggle-behaviour" name="toggle" type="radio" id="toggle-on" checked>
+              <label class="toggle-option" for="toggle-on">One-way</label>
+
+              <input class="toggle-behaviour" name="toggle" type="radio" id="toggle-off">
+              <label class="toggle-option force-left" for="toggle-off">Return</label>
+
+            </section>
+
+            <section class="items-across">
+
+              <section class="third items-top-down space-around">
+
+                <label class="raised-label">Number of travellers:</label>
+
+                <label class="raised-label">Where:</label>
+
+                <label class="raised-label">When:</label>
+
+                <label class="raised-label">Budget:</label>
+
+              </section>
+
+              <section class="two-thirds items-top-down">
+
+                <input class="alphanumeric-input" type="number" placeholder="1" name="number-of-travellers">
+
+                <input class="alphanumeric-input" type="text" placeholder="Anywhere" name="destination">
+
+                <input class="alphanumeric-input" type="text" placeholder="Anytime" name="travel-dates">
+
+                <input class="alphanumeric-input" type="number" placeholder="Any" name="budget">
+              </section>
+
+            </section>
+
+            <section class="form-group items-across align-center">
+
+              <div class="checkbox">
+                <input type="checkbox" id="checkboxInput" name="use-travel-profile">
+                <label for="checkboxInput"></label>
+              </div>
+
+              <p>Use a trip profile<span class="tiny-right-margin"></span></p>
+
+              <div class="tooltip question-mark icon__16px">
+
+                <p class="information">
+
+                <span class="tooltip-paragraph">A trip profile is a collection of settings that you can use to prefill flight information.</span>
+                <span class="tooltip-paragraph">Want to know more about how trip profiles can help you?</span>
+                <a href="#" class="tooltip-call-to-action">Tell me more
+                  <span class="icon__24px chevron__right tiny-left-margin"></span>
+                </a>
+
+                </p>
+
+              </div>
+
+            </section>
+
+            <section class="right">
+              <input class="button button__primary" type="submit" value="Go!">
+            </section>
+
+          </form>
+        </section>
+      </section>
+
+    </section>
   </body>
 </html>

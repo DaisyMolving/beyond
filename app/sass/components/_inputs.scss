@@ -1,0 +1,57 @@
+.alphanumeric-input {
+  border-top: solid 2px $neutral-700;
+  border-left: solid 2px $neutral-400;
+  border-right: solid 2px $neutral-400;
+  border-bottom: solid 2px $neutral-100;
+  border-radius: 5px;
+  color: $neutral-600;
+  font-family: OpenSans;
+  font-size: 1rem;
+  height: 32px;
+  margin-bottom: 5px;
+  padding: 0px 10px;
+}
+
+input[type="text"] {
+  width: 220px;
+}
+
+input[type="number"] {
+  width: 110px;
+}
+
+input[type="checkbox"] {
+  visibility: hidden;
+}
+
+input[type="checkbox"]:checked + label{
+  background-image: url("../../public/assets/images/icons/16px/checkmark.png");
+  background-size: 16px;
+  background-position: center center;
+  height: 16px;
+  width: 16px;
+}
+
+.checkbox label {
+    background: transparent;
+    border-radius: 5px;
+    display: block;
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 15px;
+    z-index: 1;
+}
+
+.checkbox {
+  border-top: solid 2px $neutral-700;
+  border-left: solid 2px $neutral-400;
+  border-right: solid 2px $neutral-400;
+  border-bottom: solid 2px $neutral-100;
+  border-radius: 5px;
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  position: relative;
+}

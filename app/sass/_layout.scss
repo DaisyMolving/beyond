@@ -2,6 +2,22 @@
   width: 50%;
 }
 
+.quarter {
+  width: 25%;
+}
+
+.three-quarters {
+  width: 75%;
+}
+
+.third {
+  width: 33%;
+}
+
+.two-thirds {
+  width: 66%;
+}
+
 .left {
   display: flex;
   justify-content: flex-start;
@@ -17,6 +33,40 @@
   align-items: center;
 }
 
+.align-baseline {
+  display: flex;
+  align-items: baseline;
+}
+
 .items-across {
   display: flex;
 }
+
+.items-top-down {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.content-block {
+  margin-top: 75px;
+}
+
+.content {
+  box-sizing : border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 40px 30px 40px;
+  width: 100%;
+}
+
+.tiny-right-margin {
+  margin-right: 5px;
+}
+
+ .tiny-left-margin {
+   margin-left: 5px;
+ }

@@ -12,6 +12,13 @@
   margin-right: 5px;
 }
 
+.icon__16px {
+  height: 16px;
+  width: 16px;
+  background-size: 16px;
+  margin-right: 5px;
+}
+
 .avatar {
   background-image: url("../../public/assets/images/icons/36px/initials.png");
 }
@@ -22,4 +29,12 @@
 
 .burger-menu {
   background-image: url("../../public/assets/images/icons/36px/menu.png");
+}
+
+.question-mark {
+  background-image: url("../../public/assets/images/icons/16px/question.png");
+}
+
+.chevron__right {
+  background-image: url("../../public/assets/images/icons/24px/chevron/right.png");
 }

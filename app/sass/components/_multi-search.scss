@@ -1,0 +1,28 @@
+.multi-search {
+  background-color: $neutral-000;
+  outline: $neutral-700 solid 1px;
+  height: auto;
+  width: 100%;
+}
+
+.horizontal-tabs {
+  display: flex;
+  justify-content: space-between;
+  height: 45px;
+  width: 100%;
+}
+
+.tab {
+  display: flex;
+  font-size: 1.125rem;
+  height: 45px;
+  justify-content: space-around;
+}
+
+.tab__active {
+  background-color: $neutral-000;
+}
+
+.tab__inactive {
+  background-color: $primary-500;
+}

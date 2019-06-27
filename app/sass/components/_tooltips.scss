@@ -1,0 +1,44 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .information {
+  background-color: $neutral-200;
+  border-radius: 5px;
+  color: $neutral-900;
+  opacity: 0;
+  padding: 20px;
+  position: absolute;
+  transition: opacity 0.3s;
+  width: 245px;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.tooltip:hover .information {
+  visibility: visible;
+  opacity: 1;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tooltip-paragraph {
+  font-family: OpenSans;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.tooltip-call-to-action {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: OpenSansSemiBold;
+  text-align: center;
+}

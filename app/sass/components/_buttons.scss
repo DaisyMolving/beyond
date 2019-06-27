@@ -1,0 +1,19 @@
+.button {
+  font-family: OpenSansBold;
+  font-size: 1.125rem;
+  height: 40px;
+  letter-spacing: 0.5px;
+  min-width: 100px;
+  border: 1px solid $primary-500;
+  border-radius: 5px;
+}
+
+.button__primary {
+  color: $neutral-000;
+  background-color: $primary-500;
+}
+
+.button__secondary {
+  color: $primary-500;
+  background-color: $neutral-000;
+}

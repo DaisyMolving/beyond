@@ -1,0 +1,17 @@
+.toggle {
+  margin: 0px 0px 30px 0px;
+}
+input[type="radio"].toggle-behaviour {
+  display: none;
+}
+
+input[type="radio"].toggle-behaviour:checked + label {
+  background-color: $neutral-700;
+  color: $neutral-000;
+}
+
+.toggle-option {
+  border: solid 1px $neutral-700;
+  height: 34px;
+  padding: 5px 10px;
+}
