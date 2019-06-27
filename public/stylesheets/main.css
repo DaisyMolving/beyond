@@ -113,6 +113,9 @@ body {
 .tiny-left-margin {
   margin-left: 5px; }
 
+.between {
+  margin: 0px 20px; }
+
 .white-text {
   color: #FFFFFF; }
 
@@ -360,5 +363,14 @@ input[type="checkbox"]:checked + label {
   justify-content: center;
   font-family: OpenSansSemiBold;
   text-align: center; }
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px; }
+
+.card {
+  background-color: #82E3AC;
+  height: 260px; }
 
 /*# sourceMappingURL=main.css.map */
