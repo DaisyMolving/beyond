@@ -11,7 +11,7 @@ Take the tedium out of travel booking by prefilling preferences and creating tri
 
 ## To run:
 
-Download this project.
+Download or `git clone` this project.
 
 Either navigate to the file `index.html` within `app/html` and right click to open with your favourite browser, or
 
@@ -29,7 +29,7 @@ then run `brew install ruby`
 
 and `brew install sass/sass/sass`.
 
-Once Sass is install, navigate to the `beyond` and run Sass with the watch flag:
+Once Sass is installed, navigate to the `beyond` and run Sass with the watch flag:
 
 `sass --watch app/sass:public/stylesheets`
 
