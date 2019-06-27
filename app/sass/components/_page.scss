@@ -1,11 +1,11 @@
-.page {
+main {
   flex: 1;
-  height: 100%;
-  margin: 0px 153px;
-  padding-top: 100px;
-}
-
-.background-confetti {
   background-image: url("../../public/assets/images/confetti-background.png");
   background-size: cover;
+  padding-bottom: 100px;
+}
+
+.page {
+  margin: 0px 153px;
+  padding-top: 100px;
 }

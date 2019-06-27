@@ -44,17 +44,13 @@ input {
 @font-face {
   font-family: OpenSansBold;
   src: url("../../public/assets/fonts/Open Sans/OpenSans-Bold.ttf"); }
-html, body {
-  box-sizing: border-box;
-  height: 100%; }
-
 body {
   color: #4D4D4D;
   display: flex;
   flex-direction: column;
   font-family: OpenSansSemiBold;
   font-size: 16px;
-  height: 100vh; }
+  min-height: 100vh; }
 
 .half {
   width: 50%; }
@@ -199,15 +195,15 @@ header {
 
   nav {
     display: none; } }
-.page {
+main {
   flex: 1;
-  height: 100%;
+  background-image: url("../../public/assets/images/confetti-background.png");
+  background-size: cover;
+  padding-bottom: 100px; }
+
+.page {
   margin: 0px 153px;
   padding-top: 100px; }
-
-.background-confetti {
-  background-image: url("../../public/assets/images/confetti-background.png");
-  background-size: cover; }
 
 .multi-search {
   background-color: #FFFFFF;
@@ -372,5 +368,10 @@ input[type="checkbox"]:checked + label {
 .card {
   background-color: #82E3AC;
   height: 260px; }
+
+footer {
+  background-color: #4D4D4D;
+  height: 160px;
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
